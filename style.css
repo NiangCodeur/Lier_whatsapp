@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.icons{
+    display: flex;
+}
+.icons a{
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #ed1c94;
+    margin: 0 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.icons a .fab{
+    font-size: 25px;
+    line-height: 80px;
+}
